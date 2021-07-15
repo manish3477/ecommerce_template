@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Danfe Online Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--         navbar        -->
+    <div class="navbar">
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="logo">Danfe Online Store</div>
+        <ul class="nav_menu">
+            <li class="nav_items"><a href="home.html">Home</a></li>
+            <li class="nav_items"><a href="products.html">Products</a></li>
+            <li class="nav_items"><a href="">Sale</a></li>
+            <li class="nav_items"><a href="login.html">Lookbook</a></li>
+            <li class="nav_items"><a href="userprofile.html">Profile</a></li>
+
+        </ul>
+
+        <div class="nav_icons">
+
+            <div class="search-box">
+                <input class="search-input" type="text" name="" placeholder="what's you looking for ?">
+                <a href="#" class="search-btn">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+
+            <div class="cart">
+
+                <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--     product detail -->
+    <div class="product_conatiner">
+        <div class="image_section">
+            <img class="productdetail_image" src="./images/product.png" alt="product_image" />
+            <div class="small_images">
+                <img class="small_image" src="./images/product.png" alt="product_image" />
+                <img class="small_image" src="./images/product.png" alt="product_image" />
+                <img class="small_image" src="./images/product.png" alt="product_image" />
+            </div>
+        </div>
+        <div class="detail_section">
+            <p class="detail_big_text">Gray t-shirt</p>
+            <p class="detail_big_text">rs 1200</p>
+            <p class="detail_small_text">
+                loreum epsum loreum epsum loreum epsum loreum epsum loreum
+                epsum v loreum epsum loreum epsum loreum epsum loreum epsum
+                loreum epsum
+
+            </p>
+            <p class="detail_medium_text">avilable colors</p>
+            <div class="cricles">
+                <div class="cricle colour1"></div>
+                <div class="cricle colour2"></div>
+                <div class="cricle colour3"></div>
+                <div class="cricle colour4"></div>
+            </div>
+            <p class="detail_medium_text">avilable sizes</p>
+            <div class="cricles">
+                <div class="cricle">
+                    <p class="small_text">S</p>
+                </div>
+                <div class="cricle">
+                    <p class="small_text">L</p>
+                </div>
+                <div class="cricle">
+                    <p class="small_text">xL</p>
+                </div>
+                <div class="cricle">
+                    <p class="small_text">xxL</p>
+                </div>
+            </div>
+            <div class="button_group">
+                <button id="subtract">-</button>
+                <p id="counter">1</p>
+                <button id="add">+</button>
+            </div>
+            <div class="button_group">
+                <button class="add_cart">add to card</button>
+                <button class="support_btn"><i class="fas fa-headset"></i></button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- realted products -->
+    <div class="container">
+        <p class="header">you may also like </p>
+
+        <div class="row">
+            <div class="product">
+                <img class="product_image" src="./images/product.png" alt="product_image" />
+                <p>men t-shirt</p>
+                <p>Rs. 1200</p>
+            </div>
+
+            <div class="product">
+                <img class="product_image" src="./images/product.png" alt="product_image" />
+                <p>men t-shirt</p>
+                <p>Rs. 1200</p>
+            </div>
+
+            <div class="product">
+                <img class="product_image" src="./images/product.png" alt="product_image" />
+                <p>men t-shirt</p>
+                <p>Rs. 1200</p>
+            </div>
+
+            <div class="product">
+                <img class="product_image" src="./images/product.png" alt="product_image" />
+                <p>men t-shirt</p>
+                <p>Rs. 1200</p>
+            </div>
+        </div>
+
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Goto top"><i class="fas fa-chevron-up"></i></button>
+    <script type="text/javascript" src="java.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Danfe Online Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--         navbar        -->
+    <div class="navbar">
+        <a href="home.html"><div class="logo">Danfe Online Store</div></a>
+        <div class="nav_icons">
+            <i class="fas fa-phone-alt"></i><span>9866838018</span>
+            <i class="fas fa-comment-alt"></i> <span> live chat</span>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="header">Checkout</div>
+
+    <!-- checkout conatiner-->
+
+    <div class="checkout_container">
+        <div class="receiver_data">
+            <div class="checkout_heading">receiver deatils</div>
+            <div class="detail_container">
+                <div class="detail_row">
+                    <p>fullname</p>
+                    <input type="text" class="checkout_input">
+                </div>
+
+                <div class="detail_row">
+                    <p>shipping address
+                    </p>
+                    <input type="text" class="checkout_input">
+                </div>
+
+                <div class="detail_row">
+                    <p>receiver contact</p>
+                    <input type="text" class="checkout_input">
+                </div>
+
+            </div>
+            <input type="checkbox"><span>use saved data</span>
+            <div class="line"></div>
+            <div class="checkout_heading">payment method</div>
+            <div class="paymethod_check">
+                <input type="radio"><span>pay on delivery</span>
+                <input type="radio"><span>e-payment</span>
+                <input type="radio"><span>bank transfer/IME</span>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="center">
+                <button class="placeorder_btn ">Place your order</button>
+                <button class="support_btn"><i class="fas fa-headset"></i></button>
+            </div>
+                
+            
+
+            <p class="checkout_text">currently we dont direct proceed esewa, you can pay via esewa and add your name
+                and product name in remark section. </p>
+
+        </div>
+        <div class="summary_cart">
+            <div class="checkout_heading">payment method</div>
+            <div class="detail_container">
+                <div class="detail_row">
+                    <p>subtotal:</p>
+                    <p>rs.1200</p>
+                </div>
+
+                <div class="detail_row">
+                    <p>shipping cost:</p>
+                    <p>free</p>
+                </div>
+            </div>
+            <p>shipping cost may be included for orders outside kathmandu valley.</p>
+
+            <div class="checkout_heading">your cart(1).</div>
+            <div class="product_list_checkout">
+                <img class="small_image" src="./images/product.png" alt="product_image" />
+                <div class="product_detail_checkout">
+                    <p>Gary T-shirt</p>
+                    <p>Rs.1200</p>
+                    <p>Qty: 1</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
